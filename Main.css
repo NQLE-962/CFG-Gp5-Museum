@@ -1,3 +1,8 @@
+/*remove white space around body*/
+body {
+  margin: 0;
+}
+
 /*search bar */
 .navsearchflexcontainer {
 background-color: teal;
@@ -17,11 +22,12 @@ background-color: teal;
   justify-content: space-between;
 }
 
-h1 {
-  margin: 30px;
-  color: navy;
-  font-weight: bolder;
-  font-size: 40px;
+.logo {
+  margin: 10px;
+  margin-left: 20px;
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
 }
 
 /* Add a background color to the top navigation */
@@ -30,7 +36,8 @@ h1 {
   justify-content: flex-end;
   background-color: teal;
   overflow: hidden;
-  margin: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /* Style the links inside the navigation bar */
