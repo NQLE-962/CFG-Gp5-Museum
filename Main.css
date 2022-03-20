@@ -180,7 +180,6 @@ input[type=text]:focus {
 
 /* Set a style for cancel and signup buttons */
 .mailinglistitem {
-  color: white;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -262,4 +261,13 @@ hr {
 .checked {
   color: gold;
 }
+}
+
+/*STEM page*/
+.stemintrocontainer {
+  justify-content: center;
+  text-justify: auto;
+  padding: 20px;
+  background-color: rgb(233, 156, 233);
+  color: navy;
 }
