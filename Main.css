@@ -7,7 +7,6 @@ body {
 /*search bar */
 .navsearchflexcontainer {
 background-color: teal;
-border: orange solid 1px;
 }
 
 .navsearch {
@@ -99,7 +98,7 @@ border: orange solid 1px;
 /*Home page intro*/
 .homepageintro {
   margin: 20px;
-  color: navy;
+  color: rgb(2, 2, 90);
 }
 
 a {
@@ -123,7 +122,9 @@ a {
 
 .mailinglistitem {
   display: flex;
-  margin: 10px;
+  background-color: white;
+  color: rgb(1, 75, 75);
+  border: teal solid 2px;
 }
 
 /*footer - home page social media icons (bootstrap is overriding formating on index.html */
@@ -286,12 +287,6 @@ hr {
   }
 /* Modal mailing list sign up end*/
 
-/* Visit Us star rating*/
-.checked {
-  color: gold;
-}
-}
-
 /*STEM page*/
 .stemintrocontainer {
   justify-content: center;
@@ -299,4 +294,17 @@ hr {
   padding: 20px;
   background-color: rgb(233, 156, 233);
   color: navy;
+}
+
+/*Visit Us */
+.visitusflexcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.ticketflexcontainer {
+  display: flex;
+  justify-content: center;
+}
+
 }
