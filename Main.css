@@ -1,6 +1,7 @@
 /*remove white space around body*/
 body {
   margin: 0;
+  background-color: teal;
 }
 
 /*search bar */
@@ -90,6 +91,17 @@ border: orange solid 1px;
     display: block;
     text-align: left;
   }
+}
+
+/*Home page carousel*/
+.homeimagecarousel {
+  border: orange solid 1px;
+}
+
+/*Home page intro*/
+.homepageintro {
+  margin: 20px;
+  color: navy;
 }
 
 a {
