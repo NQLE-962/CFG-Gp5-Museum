@@ -94,9 +94,7 @@ border: orange solid 1px;
 }
 
 /*Home page carousel*/
-.homeimagecarousel {
-  border: orange solid 1px;
-}
+
 
 /*Home page intro*/
 .homepageintro {
@@ -119,12 +117,20 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-content: center;
     padding: 10px;
-}
+  }
 
 .mailinglistitem {
   display: flex;
   margin: 10px;
+}
+
+/*footer - home page social media icons (bootstrap is overriding formating on index.html */
+.homepagesocialmediaicons {
+  display: flex;
+  align-content: center;
+  margin-top: 10px;
 }
 
 .socialmediaicons {
@@ -132,17 +138,28 @@ a {
   align-content: center;
 }
 
+/*footer - home page social media icons (bootstrap is overriding formating on index.html */
+.homepagesocialmediaicons .fa {
+  margin: 10px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+
+  }
+
 /*footer - social media icons start */
-.fa {
-    padding: 10px;
+.socialmediaicons .fa {
     margin: 10px;
-    font-size: 30px;
     height: 20px;
     width: 20px;
     text-align: center;
-    vertical-align: middle;
+    align-content: center;
     text-decoration: none;
     border-radius: 50%;
+  
     }
   
   .fa:hover {
@@ -150,8 +167,8 @@ a {
   }
   /* Instagram */
   .fa-instagram {
-      background: #273b66;
-      color: white;
+    background: #273b66;
+    color: white;
   }  
   /* Facebook */
   .fa-facebook {
