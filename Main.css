@@ -6,6 +6,7 @@ body {
 /*search bar */
 .navsearchflexcontainer {
 background-color: teal;
+border: orange solid 1px;
 }
 
 .navsearch {
@@ -116,18 +117,21 @@ a {
 
 .socialmediaicons {
   display: flex;
+  align-content: center;
 }
 
-/*footer - social media icons */
+/*footer - social media icons start */
 .fa {
     padding: 10px;
     margin: 10px;
     font-size: 30px;
+    height: 20px;
     width: 20px;
     text-align: center;
+    vertical-align: middle;
     text-decoration: none;
     border-radius: 50%;
-  }
+    }
   
   .fa:hover {
     opacity: 0.7;
@@ -147,8 +151,9 @@ a {
     background: #55ACEE;
     color: white;
   }
+  /* social media icons end */
 
-  /* search icon */
+  /* nav search icon */
 .fa-search {
     padding: 0px;
     margin: 0px;
@@ -156,3 +161,105 @@ a {
     text-decoration: none;
 }
 
+/* Modal mailing list sign up start*/
+/* Full-width input fields */
+.emailinput {
+  width: 96%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for cancel and signup buttons */
+.mailinglistitem {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:0.7;
+}
+
+/* Styling for sign up button */
+.signupbtn {
+  padding: 14px 20px;
+  background-color: #1ac083;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #e24b41;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: teal;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 75%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+/* Modal mailing list sign up end*/
+
+/* Visit Us star rating*/
+.checked {
+  color: gold;
+}
+}

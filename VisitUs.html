@@ -47,6 +47,15 @@
             <img class="mainimageflexitem1" src="" alt="Main image" width="">
         </div>
 
+        <section class="visitintrocontainer">
+            
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+        </section>
+
         <div class="smallimageflexbox">
             <img class="smallimageflexitem" src="" alt="Small image 1" width="">
             <img class="smallimageflexitem" src="" alt="Small image 2" width="">
@@ -58,15 +67,36 @@
 
         <section class="footerflexcontainer">
             <footer class="mailinglistitem">
-                <button>Join our mailing list</button>
+                <!-- Button to open the mailing list modal -->
+                <button onclick="document.getElementById('id01').style.display='block'">Join our mailing list</button>
             </footer>
-            
+
+
             <div class="socialmediaicons">
                 <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
                 <a href="https://en-gb.facebook.com/login.php" class="fa fa-facebook"></a>
                 <a href="https://en-gb.facebook.com/login.php" class="fa fa-twitter"></a>
             </div>
         </section>>
+
+        <!-- The Modal (contains the Sign Up form) -->
+        <div id="id01" class="modal">
+            <form class="modal-content" action="/action_page.php">
+                <div class="container">
+                    <h1>Mailing list sign up</h1>
+                    <p>Please enter your email address to stay up to data with what's happening in MOFA!</p>
+                    <hr>
+                    <label for="email"><b>Email</b></label>
+                    <input class="emailinput" type="text" placeholder="Enter Email" name="email" required>
+                    <div class="clearfix">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="cancelbtn">Cancel</button>
+                        <button type="submit" class="signupbtn">Sign Up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
 
     </main>
 </body>
