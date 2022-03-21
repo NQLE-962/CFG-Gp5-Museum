@@ -1,13 +1,12 @@
 /*remove white space around body*/
 body {
   margin: 0;
-  background-color: teal;
+  background-color: rgb(0, 128, 128);
 }
 
 /*search bar */
 .navsearchflexcontainer {
 background-color: teal;
-border: orange solid 1px;
 }
 
 .navsearch {
@@ -55,13 +54,13 @@ border: orange solid 1px;
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: rgb(2, 177, 177);
-  color: navy;
+  color: rgb(2, 2, 90);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color:teal;
-  color: Navy;
+  color: rgb(2, 2, 90);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -99,7 +98,7 @@ border: orange solid 1px;
 /*Home page intro*/
 .homepageintro {
   margin: 20px;
-  color: navy;
+  color: rgb(2, 2, 90);
 }
 
 a {
@@ -113,6 +112,28 @@ a {
     justify-content: space-evenly;
 }
 
+/*Visit Us */
+.visitusflexcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: rgb(2, 2, 90);
+}
+
+.visitusflexitem {
+  display: flex;
+  justify-content: center;
+  border: rgb(243, 127, 152) solid 3px;
+  color: rgb(1, 75, 75);
+  background-color: whitesmoke;
+  margin: 10px;
+  padding: 30px;
+  max-width: 35%;
+  text-align: center;
+}
+/*end Visit us CSS */
+
 .footerflexcontainer {
     display: flex;
     flex-direction: row;
@@ -123,7 +144,9 @@ a {
 
 .mailinglistitem {
   display: flex;
-  margin: 10px;
+  background-color: white;
+  color: rgb(1, 75, 75);
+  border: teal solid 2px;
 }
 
 /*footer - home page social media icons (bootstrap is overriding formating on index.html */
@@ -286,19 +309,15 @@ hr {
   }
 /* Modal mailing list sign up end*/
 
-/* Visit Us star rating*/
-.checked {
-  color: gold;
-}
-}
-
 /*STEM page*/
 .stemintrocontainer {
   justify-content: center;
   text-justify: auto;
   padding: 20px;
   background-color: rgb(233, 156, 233);
-  color: navy;
+  color: rgb(2, 2, 90);
+}
+
 }
 
 /*Bootstrap card image sizing on exhibitions page*/
