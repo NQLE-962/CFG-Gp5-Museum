@@ -318,4 +318,11 @@ hr {
   color: rgb(2, 2, 90);
 }
 
+
+/*Bootstrap card image sizing on exhibitions page*/
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
 }
+
