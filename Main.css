@@ -54,13 +54,13 @@ background-color: teal;
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: rgb(2, 177, 177);
-  color: navy;
+  color: rgb(2, 2, 90);
 }
 
 /* Add an active class to highlight the current page */
 .topnav a.active {
   background-color:teal;
-  color: Navy;
+  color: rgb(2, 2, 90);
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -293,18 +293,21 @@ hr {
   text-justify: auto;
   padding: 20px;
   background-color: rgb(233, 156, 233);
-  color: navy;
+  color: rgb(2, 2, 90);
 }
 
 /*Visit Us */
 .visitusflexcontainer {
+  margin: 20px;
   display: flex;
   flex-direction: row;
+  color: rgb(2, 2, 90);
 }
 
-.ticketflexcontainer {
+.ticketflexitem {
   display: flex;
   justify-content: center;
+  color: rgb(2, 2, 90);
 }
 
 }
