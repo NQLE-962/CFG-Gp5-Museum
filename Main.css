@@ -300,3 +300,10 @@ hr {
   background-color: rgb(233, 156, 233);
   color: navy;
 }
+
+/*Bootstrap card image sizing on exhibitions page*/
+.card-img-top {
+  width: 100%;
+  height: 20vw;
+  object-fit: cover;
+}
