@@ -1,7 +1,7 @@
 /*remove white space around body*/
 body {
   margin: 0;
-  background-color: teal;
+  background-color: rgb(0, 128, 128);
 }
 
 /*search bar */
@@ -124,7 +124,7 @@ a {
 .visitusflexitem {
   display: flex;
   justify-content: center;
-  border: rgb(2, 177, 177) solid 3px;
+  border: rgb(243, 127, 152) solid 3px;
   color: rgb(1, 75, 75);
   background-color: whitesmoke;
   margin: 10px;
