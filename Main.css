@@ -141,35 +141,6 @@ a {
   margin: 20px 180px 20px 180px;
   color: rgb(1, 1, 59);
 }
-.recordsimagecontainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 10px;
-  margin: 20px 180px 20px 180px;
-  border: rgb(1, 75, 75) solid 3px;
-  background-color: rgb(212, 230, 230);
-}
-
-.recordsheaderitem {
-  display: flex;
-  max-width: 25%;
-  color:  rgb(1, 75, 75);
-}
-
-.recordsimageitem {
-  display: flex;
-  border-radius: 10%;
-  border: rgb(1, 75, 75) solid 3px;
-}
-
-.recordspitem {
-  display: flex;
-  max-width: 40%;
-  color: rgb(1, 75, 75);
-}
-
 /* end records page CSS */
 
 .footerflexcontainer {
