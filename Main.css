@@ -319,17 +319,15 @@ hr {
   }
 /* Modal mailing list sign up end*/
 
+}
+
 /*STEM page*/
 .stemintrocontainer {
-  justify-content: center;
-  text-justify: auto;
-  padding: 20px;
-  background-color: rgb(233, 156, 233);
-  color: rgb(2, 2, 90);
+  text-align: center;
+  padding: 10px;
+  margin: 20px 180px 20px 180px;
 }
 
-
-}
 .card-img-top {
   width: 100%;
   height: 20vw;
