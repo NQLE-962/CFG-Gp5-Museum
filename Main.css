@@ -99,7 +99,7 @@ background-color: teal;
 /*Home page intro*/
 .homepageintro {
   margin: 20px;
-  color: rgb(2, 2, 90);
+  color: rgb(63, 63, 63);
 }
 
 a {
@@ -226,7 +226,7 @@ a {
 /* Modal mailing list sign up start*/
 /* Full-width input fields */
 .emailinput {
-  width: 96%;
+  width: 97%;
   padding: 15px;
   margin: 5px 0 22px 0;
   display: inline-block;
